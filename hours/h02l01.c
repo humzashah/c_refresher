@@ -1,5 +1,5 @@
-#include <stdlib.h> /* for exit(0) */
 #include <stdio.h> /* for printf */
+#include <stdlib.h> /* for exit(0) */
 
 void main() /* void indicates function doesn't return value */
 {
