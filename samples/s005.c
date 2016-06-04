@@ -29,4 +29,6 @@ void main (void) {
   do {
     printf("e > value is %d\n", e++);
   } while(e == 1);
+
+  exit(0);
 }

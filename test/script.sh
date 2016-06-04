@@ -4,14 +4,15 @@ set -e
 execute_tests () {
   local original_dir=$(pwd)
   local script_dir=$(dirname "$0")
-  cd "${script_dir}/../hours"
+  cd "${script_dir}/../samples"
 
   for source_file in $(ls *.c)
   do
     echo "Testing ${source_file}..."
-    local exec_file="${source_file}.exe"
+    local exec_file="${source_file%.*}.exe"
     gcc $source_file -o $exec_file
     ./$exec_file
+    rm $exec_file
     echo ''
   done
 
