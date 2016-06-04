@@ -10,7 +10,16 @@ This project is primarily structured around [this][1] tutorial. If you are learn
 
 Code examples in the 'hours' directory have been named according to the online tutorial's lessons.
 
-## How to run code
+## How to compile and run code
+
+On Linux, first ensure presence of `cc` or `gcc`. Then:
+
+```
+gcc code_file.c -o executable_file
+./executable_file
+```
+
+For non-Linux system, you will need to [Google it][2].
 
 [Click me][2] :trollface:
 
