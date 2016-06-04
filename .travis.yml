@@ -1,0 +1,10 @@
+sudo: false
+language: c
+
+script:
+  - sh test/script.sh
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always

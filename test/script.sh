@@ -6,13 +6,12 @@ execute_tests () {
   local script_dir=$(dirname "$0")
   cd "${script_dir}/../hours"
 
-  local source_file_names=$(ls .)
-  for source_file in $source_file_names
+  for source_file in $(ls *.c)
   do
     echo "Testing ${source_file}..."
-    gcc $source_file -o exec_file
-    ./exec_file
-    rm exec_file
+    local exec_file="${source_file}.exe"
+    gcc $source_file -o $exec_file
+    ./$exec_file
     echo ''
   done
 
