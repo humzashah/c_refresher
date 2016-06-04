@@ -1,5 +1,5 @@
-#include <stdio.h> /* for printf */
-#include <stdlib.h> /* for exit(0) */
+#include <stdio.h>
+#include <stdlib.h>
 
 int integer_add (int x, int y) {
   int res;
@@ -19,7 +19,8 @@ void main (void) {
   /* same line declaration and assignment is also (now) acceptable in C */
   int sum = integer_add(a, b);
 
-  printf("The addition of %d and %d is %d.\n", a, b, sum);
+  /* %d denotes a signed decimal number */
+  printf("The sum of %d and %d is %d.\n", a, b, sum);
 
   exit(0);
 }
