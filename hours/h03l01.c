@@ -4,15 +4,20 @@
 int integer_add (int x, int y) {
   int res;
   res = x + y;
+
+  /* exiting here instead of returning would halt the process */
   return res;
 }
 
-void main (void) { /* void indicates function doesn't return value */
-  int a, b, sum; /* Original C required variables to be hoisted */
-
+/* void in paranthesis means that function takes no arguments */
+void main (void) {
+  /* Original C required variables to be hoisted */
+  int a, b;
   a = 1;
   b = 2;
-  sum = integer_add(a, b);
+
+  /* same line declaration and assignment is also (now) acceptable in C */
+  int sum = integer_add(a, b);
 
   printf("The addition of %d and %d is %d.\n", a, b, sum);
 

@@ -10,7 +10,7 @@ Go through examples to quickly refresh your working knowledge of the C programmi
 
 This project is primarily structured around [this][0] tutorial.
 
-The 'hours' directory has code files corresponding to the lessons in the tutorial.
+The 'hours' directory has code files corresponding to the lessons in the tutorial. Comments in the code files are relevant to the code after the comment.
 
 If you are learning C from scratch, I highly recommend using that tutorial instead of this project.
 
