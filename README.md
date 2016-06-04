@@ -1,4 +1,4 @@
-# Refresher C
+# C Refresher
 
 Reconnect with the lowest high-level programming language - [C][0]! :neckbeard:
 
