@@ -1,22 +1,21 @@
 # Refresher C
 
-Quickly read basic C code to understand the syntax.
+Reconnect with the lowest high-level programming language - [C][0]! :neckbeard:
 
 ## Description
 
-Go through examples to quickly refresh your working knowledge of the C programming language.
+This repo provides code examples with descriptive comments which help relearn what you have forgotten about C.
 
-## Structure
+This project is primarily structured around [this][1] tutorial. If you are learning C from scratch, I recommend using that tutorial instead of this project.
 
-This project is primarily structured around [this][0] tutorial.
+Code examples in the 'hours' directory have been named according to the online tutorial's lessons.
 
-The 'hours' directory has code files corresponding to the lessons in the tutorial. Comments in the code files are relevant to the code after the comment.
+## How to run code
 
-If you are learning C from scratch, I highly recommend using that tutorial instead of this project.
+[Click me :trollface:][2]
 
-## How to run code (Linux)
+## Why did I create this project?
 
-[Read][1]
-
-[0]: http://aelinik.free.fr/c/
-[1]: http://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/
+[0]: https://en.wikipedia.org/wiki/C_(programming_language)
+[1]: http://aelinik.free.fr/c/
+[2]: http://lmgtfy.com/?q=how+to+run+c+code
