@@ -6,7 +6,7 @@ Reconnect with the lowest high-level programming language - [C][0]! :neckbeard:
 
 This repo provides code examples with descriptive comments which help relearn what you have forgotten about C.
 
-This project is primarily structured around [this][1] tutorial. If you are learning C from scratch, I recommend using that tutorial instead of this project.
+This project is primarily structured around [**Sams Teach Yourself C in 24 Hours**][1] tutorial. If you are learning C from scratch, I highly recommend that tutorial.
 
 Code examples in the 'hours' directory have been named according to the online tutorial's lessons.
 
