@@ -1,5 +1,8 @@
-#include <stdio.h> /* for printf */
-#include <stdlib.h> /* for exit(0) */
+/* include header to make 'printf' function available */
+#include <stdio.h>
+
+/* include header to make 'exit' function available */
+#include <stdlib.h>
 
 /*
   - all C programs are executed by running the main function
