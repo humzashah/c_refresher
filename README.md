@@ -10,20 +10,30 @@ This project is primarily structured around [this][1] tutorial. If you are learn
 
 Code examples in the 'hours' directory have been named according to the online tutorial's lessons.
 
-## How to compile and run code
+## FAQ
 
-On Linux, first ensure presence of `cc` or `gcc`. Then:
+### How to compile and run code
+
+#### Linux
+
+First ensure the presence of `cc` or `gcc`. Then:
 
 ```
 gcc code_file.c -o executable_file
 ./executable_file
 ```
 
-For non-Linux system, you will need to [Google it][2].
+#### Non-Linux
 
-[Click me][2] :trollface:
+[Google it][2].
 
-## Why did I create this project?
+### How should you go through the examples?
+
+Carefully read each code file (ordered by name) in the 'hours' directory.
+
+### Why does this project exist?
+
+I mainly wanted to help programmers who want to (begin to) understand the source code of the C-written high level language they daily use.
 
 [0]: https://en.wikipedia.org/wiki/C_(programming_language)
 [1]: http://aelinik.free.fr/c/
