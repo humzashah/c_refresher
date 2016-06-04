@@ -6,7 +6,7 @@ execute_tests () {
   local script_dir=$(dirname "$0")
   cd "${script_dir}/../hours"
 
-  source_file_names=$(ls .)
+  local source_file_names=$(ls .)
   for source_file in $source_file_names
   do
     echo "Testing ${source_file}..."
