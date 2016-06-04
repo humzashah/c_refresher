@@ -12,7 +12,7 @@ Code examples in the 'hours' directory have been named according to the online t
 
 ## How to run code
 
-[Click me :trollface:][2]
+[Click me][2] :trollface:
 
 ## Why did I create this project?
 
