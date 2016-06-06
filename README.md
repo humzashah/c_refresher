@@ -14,7 +14,7 @@ Samples in this project more-or-less follow [this excellent tutorial][2]. If you
 
 ### How to compile and run code?
 
-[Google "how to run C code"][3] for your particular operating system.
+You can either use [this very helpful][3] website or you can [Google "how to run C code"][4] for your particular operating system.
 
 ### How should you go through the examples?
 
@@ -29,4 +29,5 @@ Additionally however, I wanted to help programmers of C-written high level langu
 [0]: https://travis-ci.org/humzashah/c_refresher
 [1]: https://en.wikipedia.org/wiki/C_(programming_language)
 [2]: http://aelinik.free.fr/c/
+[3]: https://ideone.com/
 [3]: http://lmgtfy.com/?q=how+to+run+C+code
