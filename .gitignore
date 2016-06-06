@@ -4,6 +4,9 @@
 *.swo
 *.DS_Store
 
+# Log files
+*.log
+
 # Object files
 *.o
 *.ko
