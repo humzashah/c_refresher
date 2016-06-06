@@ -24,7 +24,7 @@ Carefully read each code file (ordered by name) in the 'samples' directory.
 
 Mainly, this project helped me quickly refresh my C concepts.
 
-Additionally however, I wanted to help programmers of C-written high level languages who want to (begin to) understand their language's source code.
+Additionally however, I wanted to help programmers of C-written high level languages in beginning to understand their language's source code.
 
 [0]: https://travis-ci.org/humzashah/c_refresher
 [1]: https://en.wikipedia.org/wiki/C_(programming_language)
