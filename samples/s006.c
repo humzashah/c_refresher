@@ -26,10 +26,10 @@ void main (void) {
   printf("Bitwise complement of %d is %d\n", a, bitwise_complement);
 
   unsigned short bit_shift_right = a >> 1;
-  printf("Shifting a bit of %d to the right yields %d\n", a, bit_shift_right);
+  printf("Shifting 1 bit of %d to the right yields %d\n", a, bit_shift_right);
 
   unsigned short bit_shift_left = a << 1;
-  printf("Shifting a bit of %d to the left yields %d\n", a, bit_shift_left);
+  printf("Shifting 1 bit of %d to the left yields %d\n", a, bit_shift_left);
 
   exit(0);
 }
