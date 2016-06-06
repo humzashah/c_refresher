@@ -1,3 +1,5 @@
+/* 'char' and floating point numbers */
+
 #include <stdio.h>
 #include <stdlib.h>
 

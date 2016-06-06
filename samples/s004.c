@@ -1,3 +1,5 @@
+/* Casting data types */
+
 #include <stdio.h>
 #include <stdlib.h>
 

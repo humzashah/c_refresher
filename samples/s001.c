@@ -1,3 +1,5 @@
+/* Basic string printing */
+
 /* include header to make 'printf' function available */
 #include <stdio.h>
 

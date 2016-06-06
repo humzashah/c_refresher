@@ -1,3 +1,5 @@
+/* 'for' and 'while' loops */
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,7 +1,11 @@
+/* Bitwise operations */
+
 #include <stdio.h>
 #include <stdlib.h>
 
 /* 'unsigned short' are integers ranging from 0 to 65535 */
+/* Read more about data types: */
+/* http://www.tutorialspoint.com/cprogramming/c_data_types.htm */
 void main (void) {
   /* 0000 0000 0000 0011 */
   unsigned short a = 3;
