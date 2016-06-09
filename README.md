@@ -20,6 +20,8 @@ You can either use [this very helpful][3] website or you can [Google "how to run
 
 Carefully read each code file (ordered by name) in the 'samples' directory.
 
+The outputs of commands are included as comments in the sample files.
+
 ### Why does this project exist?
 
 Mainly, this project helped me quickly refresh my C concepts.
