@@ -23,6 +23,10 @@ void main (void) {
 
   /* %d denotes a signed decimal number */
   printf("The sum of %d and %d is %d.\n", a, b, sum);
+  /*
+    Output:
+    => The sum of 1 and 2 is 3.
+  */
 
   exit(0);
 }
