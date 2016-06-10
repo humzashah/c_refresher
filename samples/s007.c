@@ -1,10 +1,15 @@
-/* boolean values, logical operators, if/else if/else conditions */
+/* boolean values, logical operators, conditionals */
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /* functions declared below the main function need to be declared on top */
-int evaluator (int a, int b);
+
+/* this function evaluate if / else-if / else conditions : */
+int ifelse_evaluator (int a, int b);
+
+/* this function evaluates switch statements : */
+int switch_evaluator (int a);
 
 /*
   - C doesn't have boolean data types
@@ -36,28 +41,46 @@ void main (void) {
   */
 
 
-  evaluator(2, 0);
+  ifelse_evaluator(2, 0);
   /*
     Output:
     => 'If' block for if-2
   */
 
-  evaluator(0, 3);
+  ifelse_evaluator(0, 3);
   /*
     Output:
     => 'Else If' block for if-0 AND else-if-3
   */
 
-  evaluator(0, 0);
+  ifelse_evaluator(0, 0);
   /*
     Output:
     => 'Else' block for if-0 AND else-if-0
   */
 
+  switch_evaluator(1);
+  /*
+    Output:
+    => First switch
+  */
+
+  switch_evaluator(2);
+  /*
+    Output:
+    => Second switch
+  */
+
+  switch_evaluator(3);
+  /*
+    Output:
+    => Default switch
+  */
+
   exit(0);
 }
 
-int evaluator (int a, int b) {
+int ifelse_evaluator (int a, int b) {
   /* Will simply print which block is evaluated for given values */
 
   if (a) {
@@ -66,6 +89,22 @@ int evaluator (int a, int b) {
     printf("'Else If' block for if-%d AND else-if-%d\n", a, b);
   } else {
     printf("'Else' block for if-%d AND else-if-%d\n", a, b);
+  }
+
+  return 0;
+}
+
+int switch_evaluator (int a) {
+  switch (a) {
+    case 1:
+      printf("First switch\n");
+      break;
+    case 2:
+      printf("Second switch\n");
+      break;
+    default:
+      printf("Default switch\n");
+      break;
   }
 
   return 0;
