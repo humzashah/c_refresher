@@ -1,4 +1,4 @@
-/* 'for' and 'while' loops */
+/* loops */
 
 #include <stdio.h>
 #include <stdlib.h>

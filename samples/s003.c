@@ -1,4 +1,4 @@
-/* 'char' and floating point numbers */
+/* 'char' date type and floating point numbers */
 
 #include <stdio.h>
 #include <stdlib.h>
