@@ -1,7 +1,7 @@
 /* Completing 'Fizz Buzz' for 1-30 : http://c2.com/cgi/wiki?FizzBuzzTest */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int fizz_buzz (void);
 

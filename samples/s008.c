@@ -1,7 +1,7 @@
 /* calculating factorial in 2 different ways */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int factorial_with_recursion (int a);
 int factorial_with_loop (int a);
