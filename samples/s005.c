@@ -58,5 +58,25 @@ void main (void) {
     => e > value is 1
   */
 
+  /* for(;;) and while() create infinite loops */
+  /* 'break' can skip out of the loop */
+  for (;;) {
+    break;
+    printf("Print me\n");
+  }
+  /* Output: */
+
+  /* 'continue' can skip an iteration */
+  for (int x = 1; x <= 3; x++) {
+    if (x == 2)
+      continue;
+    printf("%d\n", x);
+  }
+  /*
+    Output:
+    => 1
+    => 3
+  */
+
   exit(0);
 }
