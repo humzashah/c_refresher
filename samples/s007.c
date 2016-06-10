@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /* functions declared below the main function need to be declared on top */
-int evaluator(int a, int b);
+int evaluator (int a, int b);
 
 /*
   - C doesn't have boolean data types
@@ -57,7 +57,7 @@ void main (void) {
   exit(0);
 }
 
-int evaluator(int a, int b) {
+int evaluator (int a, int b) {
   /* Will simply print which block is evaluated for given values */
 
   if (a) {
