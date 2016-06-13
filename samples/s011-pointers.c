@@ -56,5 +56,11 @@ void main (void) {
   /* Output: a: address=0x7ffc447d247c, content=2 */
   /* Note: value changed from 1 to 2 */
 
+  /*
+    Note: pointers can be used to save the effort in copying large objects from
+          one function to another. by passing pointers, you can pass objects by
+          reference and manipulate data directly in memory from multiple places
+  */
+
   exit(0);
 }
