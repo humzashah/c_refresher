@@ -57,9 +57,8 @@ void main (void) {
   /* Note: value changed from 1 to 2 */
 
   /*
-    Note: pointers can be used to save the effort in copying large objects from
-          one function to another. by passing pointers, you can pass objects by
-          reference and manipulate data directly in memory from multiple places
+    Note: pointers let you modify the same memory space from various locations.
+          this saves you from copying possibly large objects between functions.
   */
 
   exit(0);
