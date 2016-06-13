@@ -15,7 +15,7 @@ void main (void) {
     => a > This is loop # 2
   */
 
-  /* also acceptable: */
+  /* loops can be followed by a block `{}` or a single statement */
   for (int b = 0; b < 3; b++)
     printf("b > This is loop # %d\n", b);
   /*
