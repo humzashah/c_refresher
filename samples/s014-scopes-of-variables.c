@@ -3,14 +3,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* following variable is declared in an external file */
+/* following variable has program scope and is declared in an external file */
 extern int x;
 
-/* following variable is accessible everywhere in this file */
+/* following variable has file scope and cannot be used outside of this file */
+static int y;
+
+/*
+  - following variable has program scope and is accessible everywhere in this
+    file
+*/
 int a = 100;
 
 void main (void) {
-  /* following variable has local block scope and hides outside variable */
+  /* following variable has local block scope and hides the outside variable */
   for (int a = 1; a <= 2; a++)
     printf("a: local value = %d\n", a);
   /*
