@@ -1,5 +1,11 @@
 /* Basic string printing */
 
+/*
+  - header files need to be included to import some functions
+  - C offers native header files
+  - custom headers files can be created and imported too
+*/
+
 /* include header to make 'printf' function available */
 #include <stdio.h>
 
