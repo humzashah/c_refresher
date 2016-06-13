@@ -18,11 +18,12 @@ void main () {
     => Howdy, neighbor! This is my first C program.
   */
 
-  /*
-    - exit the process with 0 code
-    - 0 indicates success
-    - exit codes greater than 0 mean failure
-    - the greater the exit code, the more severe the failure
-  */
+  /* exit the process with 0 code */
   exit(0);
+
+  /*
+    Note: for the main function only, `exit(0)` and `return 0` *effectively*
+          yield the same result; but for the latter, the function declaration
+          should be `int main` instead of `void main`
+  */
 }
