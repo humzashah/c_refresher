@@ -25,7 +25,7 @@ time_tests () {
   echo '.'
 
   local start_time=$(date +%s)
-  execute_tests > stdout.log
+  execute_tests > log/stdout.log
   local end_time=$(date +%s)
   local time_taken=$(expr $end_time - $start_time)
   echo "Completed tests in approximately ${time_taken} seconds."
