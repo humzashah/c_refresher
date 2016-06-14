@@ -1,4 +1,4 @@
-/* variable number of arguments in functions */
+/* functions with variable arguments */
 
 #include <stdio.h>
 #include <stdlib.h>
