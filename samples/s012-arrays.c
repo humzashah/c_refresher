@@ -21,11 +21,26 @@ void main (void) {
 
   int *array_int_ptr = array_int;
   printf("Value of array_int_ptr: %p\n", array_int_ptr);
-  /* Output: Value of array_int_ptr: 0x7ffeb7fc52d0 */
+  /* Output: => Value of array_int_ptr: 0x7ffeb7fc52d0 */
 
   printf("Address of first element of array_int: %p\n", &array_int[0]);
-  /* Output: Address of first element of array_int: 0x7fffe5441ef0 */
+  /* Output: => Address of first element of array_int: 0x7fffe5441ef0 */
   /* Note: address is same as in previous output. */
+
+  printf("Content in location pointed by array_int_ptr: %d\n", *array_int_ptr);
+  /* Output: => Content in location pointed by array_int_ptr: 4 */
+
+  /*
+    - pointers can be moved up / down positions
+    - this can be used to read next / previous elements in the array
+    - following moved the pointer 2 positions ahead
+    - it translates to `array_int_ptr += (2 * data_type_size)`
+  */
+  array_int_ptr += 2;
+
+  printf("Content in location pointed by array_int_ptr: %d\n", *array_int_ptr);
+  /* Output: => Content in location pointed by array_int_ptr: 23 */
+
 
   int array_int_unsized[] = {4, 2, 1};
   for (int i = 0; i < 3; i++)
@@ -64,7 +79,7 @@ void main (void) {
   /* or `char word_a[] = "now"` */
   char word_a[4] = {'n', 'o', 'w', '\0'};
   printf("Printing a word: '%s'\n", word_a);
-  /* Output: Printing word_a: 'now' */
+  /* Output: => Printing word_a: 'now' */
 
   exit(0);
 }
