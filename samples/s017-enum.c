@@ -6,7 +6,7 @@
 void main (void)
 {
   /*
-    - enumerations help in writing clear and simplified codes
+    - enum data type can be used to represent integer constants
     - by default enum values start with 0
     - this can be changed by either changing the first value or by assigning
       all values
