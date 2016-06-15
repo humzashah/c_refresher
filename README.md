@@ -14,6 +14,10 @@ These samples **DO NOT** comprehensively cover C; for that, I recommend [this bo
 
 Open a descriptive issue to point out any errors you find. I will accept resolving pull requests as long as they follow the same code and commenting style present in the existing sample code.
 
+## License
+
+[ISC License](/)
+
 [0]: https://travis-ci.org/humzashah/c_refresher
 [1]: https://en.wikipedia.org/wiki/C_(programming_language)
 [3]: https://ideone.com/
