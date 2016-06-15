@@ -16,10 +16,11 @@ Open a descriptive issue to point out any errors you find. I will accept resolvi
 
 ## License
 
-[ISC License](/)
+[ISC License][6]
 
 [0]: https://travis-ci.org/humzashah/c_refresher
 [1]: https://en.wikipedia.org/wiki/C_(programming_language)
 [3]: https://ideone.com/
 [4]: http://lmgtfy.com/?q=how+to+run+C+code
 [5]: https://www.amazon.co.uk/Pointers-C-Kenneth-Reek/dp/0673999866
+[6]: https://github.com/humzashah/c_refresher/blob/master/license.md
