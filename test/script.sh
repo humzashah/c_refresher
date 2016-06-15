@@ -10,7 +10,7 @@ execute_tests () {
   do
     echo "Testing ${source_file}..."
     local exec_file="${source_file%.*}.exe"
-    gcc $source_file -o $exec_file
+    gcc -std=c99 $source_file -o $exec_file
     ./$exec_file
     rm $exec_file
     echo ''
