@@ -18,7 +18,8 @@ int switch_evaluator (int a);
   - Integers are used to print boolean values too
 */
 
-void main (void) {
+void main (void)
+{
   int true_var = 3 && 4;
   int false_var = !true_var;
 
@@ -80,22 +81,30 @@ void main (void) {
   exit(0);
 }
 
-int ifelse_evaluator (int a, int b) {
+int ifelse_evaluator (int a, int b)
+{
   /* Will simply print which block is evaluated for given values */
 
-  if (a) {
+  if (a)
+  {
     printf("'If' block for if-%d\n", a);
-  } else if(b) {
+  }
+  else if(b)
+  {
     printf("'Else If' block for if-%d AND else-if-%d\n", a, b);
-  } else {
+  }
+  else
+  {
     printf("'Else' block for if-%d AND else-if-%d\n", a, b);
   }
 
   return 0;
 }
 
-int switch_evaluator (int a) {
-  switch (a) {
+int switch_evaluator (int a)
+{
+  switch (a)
+  {
     case 1:
       printf("First switch\n");
       break;

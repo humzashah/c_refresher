@@ -3,9 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main (void) {
+void main (void)
+{
   /* "for (statement; condition; post_iteration_step) { steps }" */
-  for (int a = 0; a < 2; a++) {
+  for (int a = 0; a < 2; a++)
+  {
     int loop_number = a + 1;
     printf("a > This is loop # %d\n", loop_number);
   }
@@ -29,7 +31,8 @@ void main (void) {
   c = d = e = 0;
 
   /* "while (condition) { steps }" */
-  while (c < 2) {
+  while (c < 2)
+  {
     ++c;
     printf("c > value is %d\n", c);
   }
@@ -49,7 +52,8 @@ void main (void) {
   */
 
   /* for statements you need executed at least once */
-  do {
+  do
+  {
     printf("e > value is %d\n", e++);
   } while(e == 1);
   /*
@@ -60,14 +64,16 @@ void main (void) {
 
   /* for(;;) and while() create infinite loops */
   /* 'break' can skip out of the loop */
-  for (;;) {
+  for (;;)
+  {
     break;
     printf("Print me\n");
   }
   /* Output: */
 
   /* 'continue' can skip an iteration */
-  for (int x = 1; x <= 3; x++) {
+  for (int x = 1; x <= 3; x++)
+  {
     if (x == 2)
       continue;
     printf("%d\n", x);

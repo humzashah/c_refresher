@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main (void) {
+void main (void)
+{
   char a = 'A';
   /* %c denotes character */
   printf("Printing a character: %c\n", a);

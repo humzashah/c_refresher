@@ -6,7 +6,8 @@
 int factorial_with_recursion (int a);
 int factorial_with_loop (int a);
 
-void main (void) {
+void main (void)
+{
   int number = 6;
 
   int factorial_wr = factorial_with_recursion (number);
@@ -26,14 +27,20 @@ void main (void) {
   exit(0);
 }
 
-int factorial_with_recursion (int a) {
+int factorial_with_recursion (int a)
+{
   int result;
 
-  if (a < 0) {
+  if (a < 0)
+  {
     result = 0;
-  } else if (a == 0 || a == 1) {
+  }
+  else if (a == 0 || a == 1)
+  {
     result = 1;
-  } else {
+  }
+  else
+  {
     int prev_result = factorial_with_recursion (a - 1);
     result = a * prev_result;
   }
@@ -41,14 +48,19 @@ int factorial_with_recursion (int a) {
   return result;
 }
 
-int factorial_with_loop (int a) {
+int factorial_with_loop (int a)
+{
   int result;
 
-  if (a < 0) {
+  if (a < 0)
+  {
     result = 0;
-  } else {
+  }
+  else
+  {
     result = 1;
-    for (a; a > 1; a--) {
+    for (a; a > 1; a--)
+    {
       /* Equivalent to: `result = result * a` */
       result *= a;
     }

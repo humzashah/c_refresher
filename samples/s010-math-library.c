@@ -14,7 +14,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-void main (void) {
+void main (void)
+{
   printf("'Flooring' 3.2 yields %f\n", floor(3.2));
   /* Output: => 'Flooring' 3.2 yields 3.000000 */
 

@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int integer_add (int x, int y) {
+int integer_add (int x, int y)
+{
   int res;
   res = x + y;
 
@@ -12,7 +13,8 @@ int integer_add (int x, int y) {
 }
 
 /* void in paranthesis means that function takes no arguments */
-void main (void) {
+void main (void)
+{
   /* Original C required variables to be hoisted */
   int a, b;
   a = 1;
