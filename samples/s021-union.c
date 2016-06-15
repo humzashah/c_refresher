@@ -12,7 +12,8 @@
     in many compilers
 */
 
-union data {
+union data
+{
    int i;
    float f;
 };
