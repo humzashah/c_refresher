@@ -25,11 +25,11 @@ time_tests () {
   echo '.'
 
   local start_time=$(date +%s)
-  execute_tests > log/stdout.log
+  execute_tests
   local end_time=$(date +%s)
   local time_taken=$(expr $end_time - $start_time)
-  echo "Completed tests in approximately ${time_taken} seconds."
-  echo "Tests wrote STDOUT to 'stdout.log' file."
+  local green="\e[32m"
+  /bin/echo -e "${green}✓ All files ran OK in nearly ${time_taken} second(s)."
 }
 
 time_tests
