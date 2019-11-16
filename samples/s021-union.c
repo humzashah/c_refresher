@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /*
-  - unions can be used to save space by bunling variables of different types
+  - unions can be used to save space by bundling variables of different types
   - this helps save memory in resource-scarce systems
   - a union's size is of the largest object it has
   - according to the ANSI C standard, one is supposed to read only the most

@@ -24,7 +24,7 @@ void main (void) {
   /* Output: => Value of array_int_ptr: 0x7ffeb7fc52d0 */
 
   printf("Address of first element of array_int: %p\n", &array_int[0]);
-  /* Output: => Address of first element of array_int: 0x7fffe5441ef0 */
+  /* Output: => Address of first element of array_int: 0x7ffeb7fc52d0 */
   /* Note: address is same as in previous output. */
 
   printf("Content in location pointed by array_int_ptr: %d\n", *array_int_ptr);
@@ -52,7 +52,7 @@ void main (void) {
     => array_int_unsized has 1 on 2 index
   */
 
-  int array_int_2d[2][3] = { {1, 2, 3}, {4, 5, 6 } };
+  int array_int_2d[2][3] = { {1, 2, 3}, {4, 5, 6} };
   for (int i = 0; i < 2; i++) {
     for (int j = 0; j < 3; j++) {
       printf("%d ", array_int_2d[i][j]);
