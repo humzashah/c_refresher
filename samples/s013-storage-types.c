@@ -21,7 +21,7 @@ void func_one (void) {
 
 void func_two (void) {
   static int a = 1;
-  printf("a: auto int value = %d\n", a++);
+  printf("a: static int value = %d\n", a++);
 }
 
 void main (void) {
@@ -38,9 +38,9 @@ void main (void) {
     func_two();
   /*
     Output:
-    => a: auto int value = 1
-    => a: auto int value = 2
-    => a: auto int value = 3
+    => a: static int value = 1
+    => a: static int value = 2
+    => a: static int value = 3
   */
 
   /* `const a` can be used to set read-only variables */
